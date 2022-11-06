@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 500px;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+}
+
+h2 {
+    background-color: red;
+    font-size: 150%;
+    width: 50%;
+    margin: auto;
+    border: 3px solid black;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    border: 5px solid gray;
+    padding: 3% 0;
+
+}
+
+main button {
+    margin: 5% 0;
+}
+
+#show-score{
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+    border: 3px solid purple;
+    background: black;   
+    display: none;
+}
+
+#rules-show {
+    display: none;
+}
